@@ -1,3 +1,6 @@
+require 'open-uri'
+require 'json'
+
 class GamesController < ApplicationController
   def home
   end
@@ -9,5 +12,12 @@ class GamesController < ApplicationController
   end
 
   def score
+  end
+
+  def english
+    url = "https://wagon-dictionary.herokuapp.com/#{@answer}"
+    word_dictionary = open(url).read
+    word = JSON.parse(word_dictionary)
+    return word['found']
   end
 end

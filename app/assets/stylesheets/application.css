@@ -45,3 +45,26 @@
   background-color: #3498dc;
   color: white;
 }
+.scorepage {
+  border: 1px grey solid;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px 0 lightgray;
+  height: 300px;
+
+text-align: center;
+}
+.again a {
+  background-color: #A3DDCB;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 6px 16px;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px 0 grey;
+}
+
+.again a:hover {
+  background-color: #70AF85;
+  color: white;
+  font-weight: bold;
+}
