@@ -37,9 +37,9 @@
 }
 
 .single {
-  border: solid 1px lightgrey;
+  /* border: solid 1px lightgrey; */
   border-radius: 4px;
-  box-shadow: 0 1px 1px 0 grey;
+  box-shadow: 0 1px 2px 0 grey;
   padding: 16px;
   margin-right: 6px;
   background-color: #3498dc;
@@ -53,8 +53,7 @@
   border-radius: 4px;
   box-shadow: 0 2px 2px 0 lightgray;
   height: 300px;
-
-text-align: center;
+  text-align: center;
 }
 .again a {
   background-color: #A3DDCB;
@@ -70,4 +69,49 @@ text-align: center;
   background-color: #70AF85;
   color: white;
   font-weight: bold;
+}
+.return {
+  text-align: center;
+  margin-top: 32px;
+}
+.return a {
+  background-color: #B2C8DF;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 6px 16px;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px 0 grey;
+}
+
+.return a:hover {
+  background-color: #6E85B7;
+  color: white;
+  font-weight: bold;
+}
+.next a {
+  background-color: #B2C8DF;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 6px 16px;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px 0 grey;
+}
+.next a:hover {
+  background-color: #6E85B7;
+  color: white;
+  font-weight: bold;
+}
+.next {
+  text-align: center;
+  margin-top: 32px;
+}
+.box {
+  border: 1px grey solid;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px 0 lightgray;
+  height: 160px;
+  text-align: center;
+  background-color: #EFF8FF;
 }
